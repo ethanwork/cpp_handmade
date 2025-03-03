@@ -11,5 +11,12 @@ int CALLBACK WinMain(
 	LPSTR lpCmdLine,
 	int nCmdShow)
 {
+	char unsigned Test;
+	char unsigned* TestPointer;
+	TestPointer = &Test;
+
+	Test = 255;
+	Test = Test + 1;
+
 	foo();
 }
